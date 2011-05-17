@@ -1,0 +1,23 @@
+Changes from v1.6 to v0.7
+xx.xx.2011
+---------------------------------------------
+
+- changed the versioning number to reflect the alpha stage of the project;
+- fixed a bug with transparancy;
+- fixed the options button showing up in the intro;
+- added new models, new textures;
+- changed the project from OpenGL and DirectX support to only DirectX support;
+- added the id of '0' to objects which will have no physiX bodies applied to them;
+- changed the loading animation;
+- changed the GUI and HUD;
+
+
+Changes from v1.5 to v1.6
+25.06.2009
+---------------------------------------------
+
+- added a interactive main menu;
+- created dynamic lighting;
+- added guns;
+- added 3D sound;
+- added console.

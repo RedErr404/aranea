@@ -1,0 +1,30 @@
+Credits
+-------------------------
+
+Programming
+
+Niscoveanu Andrei
+Chris Mash (irrPhysX)
+
+
+2D Design
+
+Niscoveanu Andrei
+
+
+
+3D Design
+
+Niscoveanu Andrei
+
+
+
+Sound effects and music
+
+Niscoveanu Andrei
+
+
+
+Network core
+
+Niscoveanu Andrei
