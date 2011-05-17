@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+
+
+<mainMenu startGame="START JOC" options="OPTIUNI" saveAndClose="SALVEAZA SI INCHIDE" credits="AUTORI" quitGame="INCHIDE JOC" loadMap="INCARCA HARTA" cancel="ANULEAZA" mainMenu="MENIU PRINCIPAL" />
+<inGame console="CONSOLA" submit="EXECUTA" close="INCHIDE" />
+
+
+

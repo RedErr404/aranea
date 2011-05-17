@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+
+
+<mainMenu startGame="START GAME" options="OPTIONS" saveAndClose="SAVE AND CLOSE" credits="CREDITS" quitGame="QUIT GAME" loadMap="LOAD MAP" cancel="CANCEL" mainMenu="MAIN MENU" />
+<inGame console="CONSOLE" submit="SUBMIT" close="CLOSE" />
+
+
+
