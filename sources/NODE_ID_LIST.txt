@@ -1,0 +1,6 @@
+
+0  - No collision
+10 - Ammo box
+11 - Health box
+25 - Canister (Barrel Explosive)
+50 - Vehicle

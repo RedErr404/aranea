@@ -1,0 +1,8 @@
+
+0 - [ ] - create a function that hides all weapons at the same time
+x - [ ] - gravity value
+
+
+safe delete folders error/crash check
+grass
+trees
