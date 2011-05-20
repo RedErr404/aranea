@@ -457,7 +457,7 @@ if (grass == 1)
 	lifeBarText      = guienv->addStaticText(L"100", core::rect<s32>(82 ,695,142,740), false, false);
     ammoStatsText    = guienv->addStaticText(L"48",  core::rect<s32>(881,695,943,740), false, false);
 
-	torqueValueText  = guienv->addStaticText(L"0",  core::rect<s32>(10,10,100,60), false, false);
+	//torqueValueText  = guienv->addStaticText(L"0",  core::rect<s32>(10,10,100,60), false, false);
 
 	lifeBarValue = 100;//default life bar
 	ammoStatsValue = 48;//default bullets

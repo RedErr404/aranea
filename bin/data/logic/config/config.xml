@@ -1,5 +1,5 @@
 <?xml version= "1.0"?>
 <video screenResX="1024" screenResY="768" wfullscreen="1" />
-<detail mapDetail="1" shadows="0" bloom="0" normalMapping="0" grass="1" farView="6000" />
+<detail mapDetail="1" shadows="0" bloom="0" normalMapping="0" grass="1" farView="8000" />
 <audio musicOn="0" sfxOn="0" />
 <debug skipIntro="1" />

@@ -1006,10 +1006,10 @@ MyEventReceiver eventReceiver;
 irr::SIrrlichtCreationParameters device_settings;
 device_settings.DriverType = video::EDT_DIRECT3D9;//EDT_OPENGL
 device_settings.Bits = 32;
-device_settings.AntiAlias= true;
-device_settings.Stencilbuffer= true;
+device_settings.AntiAlias= false;//was true
+device_settings.Stencilbuffer= true;//was true
 device_settings.Fullscreen = wfullscreenBool;
-device_settings.Vsync = true;
+device_settings.Vsync = true;//was true
 device_settings.WindowSize = core::dimension2d<s32>(screenResX, screenResY);
 device_settings.EventReceiver = &eventReceiver;
 device = createDeviceEx(device_settings);
@@ -1030,7 +1030,7 @@ device = createDeviceEx(device_settings);
 	if (bloom==1)
     {
 	PP_Test = new PostProcessing(smgr,"../data/shaders/logic/PP_GL_Bloom1.fx","../data/shaders/logic/PP_DX_Bloom1.fx",video::EPST_PS_1_4,1024,768);
-    PP_Test->setShaderParameters(0.5f);//was 1.0
+    PP_Test->setShaderParameters(0.6f);//was 1.0
     PostProcessing *Test2 = PP_Test->addMaterial("../data/shaders/logic/PP_GL_Bloom2.fx","../data/shaders/logic/PP_DX_Bloom2.fx",video::EPST_PS_2_0,1024,1024);
     Test2->setShaderParameters(0.005f);
     Test2 = Test2->addMaterial("../data/shaders/logic/PP_GL_Bloom3.fx","../data/shaders/logic/PP_DX_Bloom3.fx",video::EPST_PS_2_0,1024,1024);
@@ -1264,10 +1264,12 @@ device = createDeviceEx(device_settings);
 		if (isInGame==1)
 		{	//show the life bar	
 
+			/*
 			//debug only
 			 core::stringw ddddddddddddd = L"";					  
              ddddddddddddd += torqueVal;
              torqueValueText->setText(ddddddddddddd.c_str());
+			 */
 
 			if(lifeBarValue <= 15)
 				{
